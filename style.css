@@ -1,0 +1,69 @@
+/* imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+/* site standards */
+
+:root {
+ --blueGrey: #4d759a;
+ --purpleAccent: #9a4d75;
+ --greenAccent: #759a4d;
+ --fontWhite: #f9f1f1;
+ --fontDark: #002220;
+ --backgroundColor: #FAF9F6;
+}
+
+/* Global styling  */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: var(--fontWhite);
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+/* General Body  */
+
+body {
+    background: var(--backgroundColor);
+}
+
+
+/* Naigvation  */
+
+nav {
+    background-color: var(--blueGrey);
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    margin: 0 2rem;
+}
+
+nav ul li a {
+    color: var(--fontWhite);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: var(--greenAccent);
+}
